@@ -43,3 +43,4 @@ RUN wget http://download.blender.org/source/blender-2.79.tar.gz -O /tmp/blender-
     rm -rf /tmp/blender-2.79 /tmp/build
 
 ENV PYTHONPATH /usr/lib/python3.5/site-packages
+ENV LD_LIBRARY_PATH /usr/lib/x86_64-linux-gnu/mesa:/opt/lib/alembic-1.7.1/lib:/opt/lib/osl-1.7.5/lib:/opt/lib/osd-3.1.1/lib:/opt/lib/oiio-1.7.15/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
